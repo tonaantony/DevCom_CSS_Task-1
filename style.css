@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.background {
+  background: #11324d;
+  background-size: cover;
+}
+
+.nav-list {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 180px;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  max-width: 80%;
+  margin: auto;
+  height: 80%;
+}
+
+.text-big {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+
+.btn-sm {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+.section {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+.text-footer {
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+
+/* Enter your CSS here :) */
+
+
+.firstsection {
+  height: 400px;
+  background: #f0d9ff;
+}
+
+.secondsection {
+  height: 400px;
+  background: #c68b59;
+}
+
+.thirdsection {
+  height: 400px;
+  background: #d5eebb;
+}
+
+#search {
+  font-size: 17px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 9px;
+  border-color: #a0a0a0;
+}
+
+.btn {
+  background: none;
+  color: #ffffff;
+  border: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #ffffff;
+}
